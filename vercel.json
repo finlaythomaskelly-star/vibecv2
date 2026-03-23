@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "buildCommand": "next build",
+  "devCommand": "next dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "env": {
+    "ANTHROPIC_API_KEY": "@anthropic_api_key",
+    "STRIPE_SECRET_KEY": "@stripe_secret_key",
+    "STRIPE_PUBLISHABLE_KEY": "@stripe_publishable_key",
+    "STRIPE_WEBHOOK_SECRET": "@stripe_webhook_secret",
+    "STRIPE_PRICE_ID": "@stripe_price_id",
+    "JWT_SECRET": "@jwt_secret",
+    "NEXT_PUBLIC_APP_URL": "@next_public_app_url"
+  }
+}
